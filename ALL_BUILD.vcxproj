@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DC8D9C0E-41B2-3158-8D5F-DDCCDCAFE922}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenCV\opencv2.4\opencv\build\include;C:\Program Files\OpenCV\opencv2.4\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCCompiler.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeRCCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\cmake\utils.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig-version.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-debug.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-release.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCCompiler.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeRCCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\cmake\utils.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig-version.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-debug.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-release.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCCompiler.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeRCCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\cmake\utils.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig-version.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-debug.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-release.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\bin\cmake.exe -HC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template -BC:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects --check-stamp-file C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCCompiler.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CMakeRCCompiler.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\Admin\Downloads\cmake-3.8.0-rc2-win64-x64\cmake-3.8.0-rc2-win64-x64\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\cmake\utils.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig-version.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVConfig.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-debug.cmake;C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\lib\OpenCVModules-release.cmake;C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\ZERO_CHECK.vcxproj">
+      <Project>FF0B4776-DCB6-3B99-8C7A-864F00294792</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\utils\aia\aiaUtils.vcxproj">
+      <Project>EA74DF19-9146-3381-8893-012797E38D89</Project>
+      <Name>aiaUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project0\project0.vcxproj">
+      <Project>E92ECADF-56A3-3BFC-B43D-409A1B9FC33C</Project>
+      <Name>project0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project1\project1.vcxproj">
+      <Project>17591839-9B6B-3DA7-8E99-3BD898FC4D68</Project>
+      <Name>project1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project2\project2.vcxproj">
+      <Project>881A348F-8868-32A1-8F95-FEDDB7080658</Project>
+      <Name>project2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project3\project3.vcxproj">
+      <Project>01D9DD17-E30C-3D9D-B6A8-7613672597D6</Project>
+      <Name>project3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project4\project4.vcxproj">
+      <Project>380E525A-3A52-3A67-9C87-4468BE1A42C0</Project>
+      <Name>project4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project5\project5.vcxproj">
+      <Project>323A0F94-AA64-3A3C-8025-DD1E54A95E0C</Project>
+      <Name>project5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\project6\project6.vcxproj">
+      <Project>F2E34BBA-5471-371F-8DCA-9016B410CA1A</Project>
+      <Name>project6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\utils\ucas\ucasUtils.vcxproj">
+      <Project>4AA9B54A-05AF-3342-B0C3-D05293C0EDEF</Project>
+      <Name>ucasUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

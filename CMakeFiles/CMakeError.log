@@ -1,0 +1,80 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 16/03/2017 16:27:39.
+Project "C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(344,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error : Required file "tracker.exe" is missing. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(344,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+
+"C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error : Required file "tracker.exe" is missing. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.6.1586.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 16/03/2017 16:27:41.
+Project "C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(344,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error : Required file "tracker.exe" is missing. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Done Building Project "C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(344,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+
+"C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error : Required file "tracker.exe" is missing. [C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\CMakeFiles\3.8.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.74
+
+

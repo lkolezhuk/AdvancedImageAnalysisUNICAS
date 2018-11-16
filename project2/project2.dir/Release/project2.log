@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\project2\main.cpp(151): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+          C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\project2\main.cpp(145) : definition of 'i' ignored
+          C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\project2\main.cpp(75) : definition of 'i' used
+C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\project2\main.cpp(153): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+          C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\project2\main.cpp(145) : definition of 'i' ignored
+          C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\aia_project_template\project2\main.cpp(75) : definition of 'i' used
+  project2.vcxproj -> C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\bin\Release\project2.exe

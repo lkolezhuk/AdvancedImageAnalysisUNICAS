@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/utils/aia/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/utils/aia/CMakeFiles/generate.stamp is up-to-date.
+  aiaConfig.cpp
+  aiaUtils.vcxproj -> C:\Users\Admin\Documents\Education\MAIA-Italia\AdvancedImageAnalysis\Projects\libs\Release\aiaUtils.lib

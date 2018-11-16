@@ -1,0 +1,13 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/aia_project_template/CMakeLists.txt'
+    is newer than 'C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- OpenCV ARCH: x64
+  -- OpenCV RUNTIME: vc11
+  -- OpenCV STATIC: OFF
+  -- Found OpenCV 2.4.13 in C:/Program Files/OpenCV/opencv2.4/opencv/build/x64/vc11/lib
+  -- You might need to add C:\Program Files\OpenCV\opencv2.4\opencv\build\x64\vc11\bin to your PATH to be able to run your applications.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects

@@ -1,0 +1,11 @@
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/utils/ucas/CMakeFiles/ucasUtils.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/utils/aia/CMakeFiles/aiaUtils.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project0/CMakeFiles/project0.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project1/CMakeFiles/project1.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project2/CMakeFiles/project2.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project3/CMakeFiles/project3.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project4/CMakeFiles/project4.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project5/CMakeFiles/project5.dir
+C:/Users/Admin/Documents/Education/MAIA-Italia/AdvancedImageAnalysis/Projects/project6/CMakeFiles/project6.dir
